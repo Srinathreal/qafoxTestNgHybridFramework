@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T21:55:15 IST" name="QafoxSuite" finished-at="2024-05-26T21:55:25 IST" duration-ms="10145">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T21:55:15 IST" name="QafoxTest" finished-at="2024-05-26T21:55:25 IST" duration-ms="10145">
+      <class name="qafoxtestcases.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qafoxtestcases.Login@557caf28]" started-at="2024-05-26T21:55:16 IST" name="setup" finished-at="2024-05-26T21:55:23 IST" duration-ms="7316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:qafoxtestcases.Login@557caf28]" started-at="2024-05-26T21:55:23 IST" name="login" data-provider="ExcelTestData" finished-at="2024-05-26T21:55:24 IST" duration-ms="1271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srinathnk097@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qafoxtestcases.Login@557caf28]" started-at="2024-05-26T21:55:24 IST" name="teardown" finished-at="2024-05-26T21:55:25 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qafoxtestcases.Login -->
+    </test> <!-- QafoxTest -->
+  </suite> <!-- QafoxSuite -->
+</testng-results>
